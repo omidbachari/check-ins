@@ -1,6 +1,6 @@
-class CreateTableUsers < ActiveRecord::Migration
+class CreateUsers < ActiveRecord::Migration
   def change
-    create_table :table_users do |t|
+    create_table :users do |t|
       t.string "name", null: false
       t.integer "rfid", null: false
     end
